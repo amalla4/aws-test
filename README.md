@@ -24,11 +24,12 @@ aws-cli/2.9.17 Python/3.9.11 Darwin/21.4.0 exe/x86_64 prompt/off
 ⇒ First: Create secret key in AWS console (in IAM), then, in your command line:
 ```
 $ aws configure
-```
+
 AWS Access Key ID [None]: *********
 AWS Secret Access Key [None]: *********
 Default region name [None]: us-east-1
 Default output format [None]: json
+```
 
 $aws configure creates two new files in ~/.aws/config & ~/.aws/credentials 
 
